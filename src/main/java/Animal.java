@@ -25,8 +25,8 @@ public class Animal {
         return animal_age;
     }
 
-    public void add() {
-        try (Connection conn = DB.sql2o.open()) {
+   /* public void add() {
+       try (Connection conn = DB.sql2o.open()) {
             conn.createQuery("insert into animals(animal_id, animal_name, animal_age) VALUES(:animal_id,:animal_name, :animal_age)")
                     .addParameter("animal_id", this.animal_id)
                     .addParameter("animal_name", this.animal_name)
@@ -38,5 +38,5 @@ public class Animal {
         try (Connection conn = DB.sql2o.open()) {
             return conn.createQuery("select *from animals").executeAndFetch(Animal.class);
         }
-    }
+    }*/
 }

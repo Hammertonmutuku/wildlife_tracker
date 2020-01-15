@@ -26,7 +26,7 @@ public class Sighting {
     }
 
     public void add() {
-        try (Connection conn = DB.sql2o.open()) {
+       /* try (Connection conn = DB.sql2o.open()) {
             conn.createQuery("insert into sightings(animal, location, ranger_name) VALUES(:animal, :location, :ranger_name)")
                     .addParameter("animal", this.animal)
                     .addParameter("location", this.location)
@@ -38,5 +38,6 @@ public class Sighting {
         try (Connection conn = DB.sql2o.open()) {
             return conn.createQuery("select *from sightings").executeAndFetch(Sighting.class);
         }
+    }*/
     }
 }
