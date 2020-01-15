@@ -8,9 +8,9 @@ public class Sighting {
     private String ranger_name;
 
     public Sighting(String animal, String location, String ranger_name) {
-        this.animal = animal
-        this.location = location
-        this.ranger_name = ranger_name
+        this.animal = animal;
+        this.location = location;
+        this.ranger_name = ranger_name;
     }
 
     public String getAnimal() {
