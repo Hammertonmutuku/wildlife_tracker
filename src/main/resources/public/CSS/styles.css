@@ -2,4 +2,9 @@
 
 h1{
   font-family: 'Abril Fatface', cursive;
+  font-size:56px;
+}
+#but {
+   text-align:center;
+   padding-top:300px;
 }
