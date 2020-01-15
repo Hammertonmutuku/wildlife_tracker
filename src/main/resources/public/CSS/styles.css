@@ -4,10 +4,10 @@ background: url("/images/background.jpg")
 }
 h1{
   font-family: 'Abril Fatface', cursive;
-  font-size:66px
-  color:white
+  font-size:66px;
+  color:white;
 }
 #but {
    text-align:center;
-   padding-top:300px
+   padding-top:300px;
 }
